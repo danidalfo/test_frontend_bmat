@@ -1,0 +1,43 @@
+table {
+  width: 100%;
+}
+.rows{
+  height: 60px;
+}
+.column{
+  width: 30%;
+}
+.columns-center{
+  width: 30%;
+  text-align: left;
+}
+.column4{
+  width: 10%;
+  text-align: right;
+}
+.type1{
+  font-weight: bold;
+  font-size: 14px;
+}
+.type2{
+font-size: 11px;
+  color: #6F6F6F;
+}
+.type3{
+  font-size: 14px;
+}
+.error{
+  color: #ec365e;
+  font-size: 11px;
+}
+.fas fa-cloud-download-alt{
+  padding-right: 20px;
+}
+.icon1{
+  color: #6F6F6F;
+  float: left
+}
+.icon2{
+  color: #6F6F6F;
+  float: right
+}

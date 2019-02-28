@@ -1,0 +1,44 @@
+<table mat-table [dataSource]="dataSource" class="mat-elevation-z8">
+
+  <!-- Name/Date Column -->
+  <ng-container matColumnDef="namedate">
+    <th mat-header-cell *matHeaderCellDef> </th>
+    <td mat-cell *matCellDef="let element" class="column">
+      <span class="type1">{{element.name}}</span>
+      <br>
+      <span class="type2">{{element.date}}</span>
+    </td>
+  </ng-container>
+
+  <!-- Group Column -->
+  <ng-container matColumnDef="group">
+    <th mat-header-cell *matHeaderCellDef> Group </th>
+    <td mat-cell *matCellDef="let element" class="columns-center">
+      <span class="type3">{{element.group}}</span>
+      <br>
+      <span class="type2">{{element.groupType}}</span>
+    </td>
+  </ng-container>
+
+  <!-- Items Column -->
+  <ng-container matColumnDef="items">
+    <th mat-header-cell *matHeaderCellDef> Weight </th>
+    <td mat-cell *matCellDef="let element" class="columns-center">
+      <span>{{element.validatedItems}} / {{element.sentItems}}</span> <br>
+      <span *ngIf="element.errors != 0" class="error">
+        <i class="fas fa-exclamation-circle"></i>
+        {{element.errors}}</span>
+    </td>
+  </ng-container>
+
+  <!-- Icons Column -->
+  <ng-container matColumnDef="icons">
+    <th mat-header-cell *matHeaderCellDef> Icons </th>
+    <td mat-cell *matCellDef="let element" class="column4">
+      <span class="icon1"><i class="fas fa-cloud-download-alt fa-lg"></i></span>
+      <span class="icon2"><i class="fas fa-paper-plane fa-lg"></i></span>
+    </td>
+  </ng-container>
+
+  <tr mat-row *matRowDef="let row; columns: displayedColumns;" class="rows"></tr>
+</table>

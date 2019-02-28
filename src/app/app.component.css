@@ -1,0 +1,24 @@
+.fill{
+
+  flex: 1 1 auto;
+}
+.table{
+  width: 990px;
+  margin: 10px 260px;
+}
+
+.lateral-div{
+
+  width: 230px;
+}
+.sortby{
+ height: 30px;
+  padding-left: 260px;
+  padding-right: 110px;
+  float: bottom;
+  font-size: small;
+  color: #6F6F6F;
+
+}
+.right-icons{
+  float: right;}

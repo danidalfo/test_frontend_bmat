@@ -1,0 +1,44 @@
+
+.container {
+  position: absolute;
+  top: 64px;
+  bottom: 0;
+  width: 230px;
+  background: white;
+
+}
+.sidenav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  background: rgba(0, 0, 0, 0);
+  padding: 5px;
+
+}
+.boto1{
+
+  width: 230px;
+  height: 40px;
+  background-color: #fde1e6;
+  color: #ec365e;
+text-align: left;
+}
+
+.boto1 span {
+  margin: 10px 32px 10px 5px;
+  float: left;
+}
+
+.boto2{
+  width: 230px;
+  height: 40px;
+  text-align: left;
+  color: #6F6F6F;
+}
+
+.boto2 span {
+  margin: 10px 35px 10px 8px;
+float: left;
+}
+

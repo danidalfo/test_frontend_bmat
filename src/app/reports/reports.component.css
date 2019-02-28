@@ -1,0 +1,37 @@
+.search {
+  margin: 13px 260px;
+  color: #6f6f6f;
+  background-color: #f1f1f1;
+  width: 450px;
+  height: 20px;
+  padding: 10px 10px;
+}
+
+.column-contaier{
+column-count: 2;
+  margin: auto;
+}
+
+.search2{
+  padding-left: 20px;
+  font-size: small;
+  border-width:0px;
+  color: #a6a6a6;
+  background: transparent;
+}
+
+.calendar{
+  top: 13px;
+  width: 250px;
+  height: 15px;
+  left: 270px;
+}
+
+.calendar span {
+margin-right: 10px;
+}
+
+.calendar i {
+ float: right;
+}
+

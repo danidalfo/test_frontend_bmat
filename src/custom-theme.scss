@@ -1,0 +1,16 @@
+
+@import '~@angular/material/theming';
+
+
+@include mat-core();
+
+$bmat-primary: mat-palette($mat-grey,900);
+$bmat-accent: mat-palette($mat-pink, 100, A200, A400);
+
+$bmat-warn: mat-palette($mat-red);
+
+$bmat-theme: mat-light-theme($bmat-primary, $bmat-accent, $bmat-warn);
+
+
+@include angular-material-theme($bmat-theme);
+
